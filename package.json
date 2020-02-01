@@ -1,5 +1,5 @@
 {
-  "name": "jeffersonsalvador",
+  "name": "jeffersonsalvador.dev",
   "version": "1.0.0",
   "description": "Personal CV",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffersonsalvador/whoim.git"
+    "url": "git+https://github.com/jeffersonsalvador/jeffersoncosta.dev.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeffersonsalvador/whoim/issues"
+    "url": "https://github.com/jeffersonsalvador/jeffersoncosta.dev/issues"
   },
-  "homepage": "https://github.com/jeffersonsalvador/whoim#readme",
+  "homepage": "https://github.com/jeffersonsalvador/jeffersoncosta.dev#readme",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
