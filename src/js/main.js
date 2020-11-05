@@ -94,7 +94,7 @@
 
 	//Blog post Modal
 	$('.open-post').on('click', function() {
-	    var postUrl = $(this).attr("href");
+	    var postUrl = 'https://www.jeffersoncosta.dev/wanderlust';
 	    $('.inline-menu-container').removeClass('showx');
 	    $('.sidebar-menu').addClass('hidex');
 	    $('.content-blocks.pop').addClass('showx');
@@ -158,7 +158,7 @@
 
 	$('.menu-block, .menu-item, #close').on('click', function() {
 	    $('.content-blocks').animate({ scrollTop: 0 }, 800);
-	});	
+	});
 
 	//Function for 'Index-Menu2.html'
 	$('#home').on('click', function() {
