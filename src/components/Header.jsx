@@ -65,7 +65,7 @@ const FullScreenHeader = ({ textWhite }) => {
             <span className="text-4 me-2">
               <i className="fas fa-phone" />
             </span>
-            (49) 163 5167 478
+            (49) 0163 5167 478
           </div>
           <button
             className={
