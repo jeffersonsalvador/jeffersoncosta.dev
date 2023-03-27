@@ -42,7 +42,7 @@ const FullScreenHeader = ({ textWhite }) => {
           {/* Logo */}
           <Link
             className="logo"
-            title="Callum"
+            title="Jefferson Costa Developer"
             smooth="easeInOutQuint"
             duration={scrollDuration}
             style={{ cursor: "pointer" }}
@@ -53,31 +53,29 @@ const FullScreenHeader = ({ textWhite }) => {
             }}
           >
             <img
-              src={textWhite ? "images/logo.svg" : "images/logo.svg"}
+              src="images/logo.svg"
               alt="Jefferson Costa"
               style={{width: '250px'}}
             />
           </Link>
           {/* Logo End */}
-          <div
-            className={"text-3 ms-auto me-2 " + (textWhite ? "text-white" : "")}
-          >
+          <div className="text-3 ms-auto me-2">
             <span className="text-4 me-2">
               <i className="fas fa-phone" />
             </span>
             (49) 163 5167 478
           </div>
-          <button
-            className={
-              "navbar-toggler collapsed " + (isNavModalClose ? "" : "show")
-            }
-            type="button"
-            onClick={() => setIsNavModalClose(!isNavModalClose)}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
+          {/*<button*/}
+          {/*  className={*/}
+          {/*    "navbar-toggler collapsed " + (isNavModalClose ? "" : "show")*/}
+          {/*  }*/}
+          {/*  type="button"*/}
+          {/*  onClick={() => setIsNavModalClose(!isNavModalClose)}*/}
+          {/*>*/}
+          {/*  <span />*/}
+          {/*  <span />*/}
+          {/*  <span />*/}
+          {/*</button>*/}
           <div
             id="header-nav"
             className={

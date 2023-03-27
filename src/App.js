@@ -1,6 +1,6 @@
 // import './App.scss'
 import WOW from 'wowjs'
-// import AboutUs from "./components/About";
+import AboutUs from './components/About'
 // import Services from "./components/Services";
 // import Resume from "./components/Resume";
 // import Portfolio from "./components/Portfolio";
@@ -108,8 +108,7 @@ function App() {
 
           <div id="content" role="main">
             <Intro></Intro>
-
-      {/*      <AboutUs></AboutUs>*/}
+            <AboutUs></AboutUs>
       {/*      <Services></Services>*/}
       {/*      <Resume></Resume>*/}
       {/*      <Portfolio></Portfolio>*/}
